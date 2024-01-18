@@ -28,7 +28,7 @@ export const Sidebar = () => {
                 ALL BOARDS <span>({boards?.length})</span>
             </p>
             <div className="mr-[20px]">
-                {boards?.length > 0 && boards.map((board: BoardState, index) => (
+                {boards?.length > 0 && boards.map((board: BoardState, index: number) => (
                     <div className={`flex py-4 px-5 items-center
                                     cursor-pointer rounded-r-full hover:bg-[#635fc71a]
                                     duration-500 ease-in-out hover:text-[rgb(99,95,199)]

@@ -44,7 +44,6 @@ export const Board = () => {
                         )
 
                         if (index !== prevColIndex) {
-                            console.log(index, prevColIndex, taskIndex)
                             dispatch(dragTask({ index, prevColIndex, taskIndex }))
                         }
                      }}
