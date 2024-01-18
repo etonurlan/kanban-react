@@ -22,7 +22,7 @@ export const AddEditBoardModal = ({ setIsBoardModalOpen, type }: {setIsBoardModa
     const [boardName, setBoardName] = useState("")
     const [columns, setColumns] = useState<Column[]>([])
 
-    let setIsValid = true;
+    // let setIsValid = true;
 
     const changeColumnName = (id: string, newValue: string) => {
         setColumns((prevState) => {
@@ -57,7 +57,7 @@ export const AddEditBoardModal = ({ setIsBoardModalOpen, type }: {setIsBoardModa
     }
 
     const validate = () => {
-        setIsValid = false
+        let setIsValid = false
         if (!boardName.trim()) {
           return false;
         }
