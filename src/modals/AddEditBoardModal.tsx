@@ -1,3 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+
 import { useState } from "react"
 import { v4 as uuidv4 } from "uuid";
 import { useDispatch, useSelector } from "react-redux";
@@ -22,7 +25,7 @@ export const AddEditBoardModal = ({ setIsBoardModalOpen, type }: {setIsBoardModa
     const [boardName, setBoardName] = useState("")
     const [columns, setColumns] = useState<Column[]>([])
 
-    // let setIsValid = true;
+    let setIsValid = true;
 
     const changeColumnName = (id: string, newValue: string) => {
         setColumns((prevState) => {
@@ -57,7 +60,7 @@ export const AddEditBoardModal = ({ setIsBoardModalOpen, type }: {setIsBoardModa
     }
 
     const validate = () => {
-        let setIsValid = false
+        setIsValid = false
         if (!boardName.trim()) {
           return false;
         }
