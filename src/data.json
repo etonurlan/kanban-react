@@ -1,0 +1,165 @@
+{
+    "boards": {
+      "boards": [
+        {   
+          "name": "Platform Launch",
+          "isActive": true,
+          "columns": [
+            {
+              "columnName": "Todo",
+              "tasks": [
+                {
+                  "taskName": "Build UI for onboarding flow",
+                  "taskDescription": "",
+                  "subtasks": [
+                    {
+                      "subtaskName": "Sign up page",
+                      "isCompleted": false
+                    },
+                    {
+                      "subtaskName": "Sign in page",
+                      "isCompleted": false
+                    }
+                  ],
+                  "taskStatus": "Todo"
+                },
+                {
+                    "taskName": "Build UI for search",
+                    "taskDescription": "",
+                    "subtasks": [
+                      {
+                        "subtaskName": "Search page",
+                        "isCompleted": false
+                      }
+                    ],
+                    "taskStatus": "Todo"
+                }
+              ]
+            },
+            {
+              "columnName": "Doing",
+              "tasks": [
+                {
+                    "taskName": "Add search endpoints",
+                    "taskDescription": "",
+                    "subtasks": [
+                      {
+                        "subtaskName": "Add search endpoint",
+                        "isCompleted": false
+                      }
+                    ],
+                    "taskStatus": "Doing"
+                },
+                {
+                  "taskName": "Design settings and search pages",
+                  "taskDescription": "",
+                  "subtasks": [
+                    {
+                      "subtaskName": "Settings - Account Page",
+                      "isCompleted": true
+                    },
+                    {
+                      "subtaskName": "Setting - Billing Page",
+                      "isCompleted": true
+                    },
+                    {
+                      "subtaskName": "Search page",
+                      "isCompleted": false
+                    }
+                  ],
+                  "taskStatus": "Doing"
+                },
+                {
+                  "taskName": "Add account management endpoints",
+                  "taskDescription": "",
+                  "subtasks": [
+                    {
+                      "subtaskName": "Upgrade plan",
+                      "isCompleted": true
+                    },
+                    {
+                      "subtaskName": "Cancel plan",
+                      "isCompleted": true
+                    },
+                    {
+                      "subtaskName": "Update payment method",
+                      "isCompleted": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "columnName": "Done",
+              "tasks": [
+                {
+                    "taskName": "Conduct 5 wireframe tests",
+                    "taskDescription": "Ensure the layout continues to make sense and we have strong buy-in from potential users",
+                    "subtasks": [
+                      {
+                        "subtaskName": "Complete 5 wireframe prototype tests",
+                        "isCompleted": false
+                      }
+                    ],
+                    "taskStatus": "Done"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Roadmap",
+          "isActive": false,
+          "columns": [
+            {
+              "columnName": "Now",
+              "tasks": [
+                {
+                  "taskName": "Launch version one",
+                  "taskDescription": "",
+                  "taskStatus": "Now",
+                  "subtasks": [
+                    {
+                      "subtaskName": "Launch privately to our waitlist",
+                      "isCompleted": false
+                    },
+                    {
+                      "subtaskName": "Launch publicly on PH, HN, etc.",
+                      "isCompleted": false
+                    }
+                  ]
+                },
+                {
+                  "taskName": "Review early feedback and plan next steps for roadmap",
+                  "taskDescription": "Beyond the initial launch, we're keeping the initial roadmap completely empty. This meeting will help us plan out our next steps based on actual customer feedback.",
+                  "taskStatus": "Now",
+                  "subtasks": [
+                    {
+                      "subtaskName": "Interview 10 customers",
+                      "isCompleted": false
+                    },
+                    {
+                      "subtaskName": "Review common customer pain points and suggestions",
+                      "isCompleted": false
+                    },
+                    {
+                      "subtaskName": "Outline next steps for our roadmap",
+                      "isCompleted": false
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "columnName": "Next",
+              "tasks": []
+            },
+            {
+              "columnName": "Later",
+              "tasks": []
+            }
+          ]
+        }
+      ]
+    }
+  }
